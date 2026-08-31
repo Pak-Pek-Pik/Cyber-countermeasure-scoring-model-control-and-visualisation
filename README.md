@@ -115,6 +115,10 @@ Cotation = 0,35·E + 0,25·P + 0,20·A + 0,20·C
 
 Le code de ce dépôt fait deux choses. Il **vérifie** que la cotation appliquée aux 74 parades
 correspond bien au barème annoncé, et il la **rend lisible**.
+
+Modèle 3D & Interactif : ![Interactive_score](figures/interactive_score.html)
+
+
 ### Le plan du modèle et les parades réelles
 
 ![Plan du modèle et parades réelles](figures/pv_map_model.png)
