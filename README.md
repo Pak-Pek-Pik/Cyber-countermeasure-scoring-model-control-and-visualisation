@@ -104,21 +104,6 @@ the score that comes from A and C.
     └── trace_quotation_pyvista.py
 ```
 
-### Usage
-
-```bash
-pip install -r requirements.txt
-
-# matplotlib figures: quotation_surface_3D, quotation_map_2D, quotation_section
-python src/trace_quotation_matplotlib.py --donnees data/parades.xlsx --sortie figures
-
-# PyVista 3D figures + interactive HTML export
-python src/trace_quotation_pyvista.py --donnees data/parades.xlsx --sortie figures
-
-# to rotate the views with the mouse instead of rendering off-screen
-python src/trace_quotation_pyvista.py --interactif
-```
-
 The expected workbook holds a sheet named `Parades BdD`, which can be changed with `--feuille`,
 containing from row 3 onwards: countermeasure name in A, status in B, then E, P, A, C and the score
 in D through H.
@@ -126,9 +111,7 @@ in D through H.
 ### A note on the data
 
 The original dataset comes from an internal risk assessment and is not published. The figures in
-this repository contain aggregate quantities only: no countermeasure name, no asset and no
-vulnerability appears in them.
-
+this repository contain aggregate quantities only.
 ---
 
 ## Français
@@ -227,20 +210,6 @@ la part de cotation qui vient de A et de C.
     └── trace_quotation_pyvista.py
 ```
 
-### Utilisation
-
-```bash
-pip install -r requirements.txt
-
-# figures matplotlib : quotation_surface_3D, quotation_map_2D, quotation_section
-python src/trace_quotation_matplotlib.py --donnees data/parades.xlsx --sortie figures
-
-# figures 3D PyVista + export HTML interactif
-python src/trace_quotation_pyvista.py --donnees data/parades.xlsx --sortie figures
-
-# pour manipuler les vues à la souris au lieu de rendre hors écran
-python src/trace_quotation_pyvista.py --interactif
-```
 
 Le classeur attendu contient une feuille `Parades BdD`, modifiable via `--feuille`, avec à partir
 de la ligne 3 : le nom de la parade en A, son statut en B, puis E, P, A, C et la cotation en D à H.
@@ -248,5 +217,4 @@ de la ligne 3 : le nom de la parade en A, son statut en B, puis E, P, A, C et la
 ### Note sur les données
 
 Le jeu de données d'origine provient d'une analyse de risque interne et n'est pas publié. Les
-figures de ce dépôt ne contiennent que des grandeurs agrégées : aucun intitulé de parade, aucun
-actif et aucune vulnérabilité n'y apparaît.
+figures de ce dépôt ne contiennent que des grandeurs agrégées.
