@@ -63,7 +63,7 @@ from the documented scale.
 
 ### Observed scores and plane sections
 
-![Observed scores and sections](figures/quotation_section.png)
+![Observed scores and sections](figures/score_section.png)
 
 On the left, the mean score actually observed for each (E, P) pair. White cells are combinations
 that never occurred. On the right, sections of the plane at fixed P, overlaid on the real scatter:
@@ -187,7 +187,7 @@ cotation appliquée s'écarte du barème.
 
 ### Cotations observées et coupes du plan
 
-![Cotations observées et coupes](figures/quotation_section.png)
+![Cotations observées et coupes](figures/score_section.png)
 
 À gauche, la cotation moyenne réellement observée par couple (E, P). Les cases blanches sont les
 combinaisons jamais rencontrées. À droite, les coupes du plan à P fixé, superposées au nuage réel :
