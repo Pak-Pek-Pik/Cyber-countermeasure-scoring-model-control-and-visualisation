@@ -1,36 +1,3 @@
-"""3D rendering (PyVista/VTK) and statistical control of a scoring grid.
-
-Reads an Excel workbook describing countermeasures rated on four criteria
-(effectiveness E, versatility P, applicability A, cost C), checks the applied
-scale against the documented one, then produces:
-
-  pv_map_model.png   : model plane at median A and C, with the actual
-                       countermeasures and their deviation from the plane
-  pv_surface_rbf.png : interpolated actual surface (RBF thin-plate spline),
-                       masked to the convex hull of the data so that nothing is
-                       extrapolated, over the theoretical plane
-  pv_map_iso.png     : iso-score map seen from above
-  pv_residues.png    : difference between the actual score and the plane
-
-An interactive HTML export (quotation_interactive.html) is attempted at the
-end of the script.
-
-The 3D views go through a normalised rendering frame: the raw ranges of E, P
-and the score differ enough that the plane would otherwise come out flattened.
-Displayed axes stay graduated in real units.
-
-Expected sheet, from row 3 onwards:
-    A = countermeasure name, B = status, D = E, E = P, F = A, G = C, H = score.
-Column E holds a COUNTIF formula, so the workbook is opened with
-data_only=True to read the computed value rather than the formula itself.
-
-Usage:
-    python trace_quotation_pyvista.py [--data data/parades.xlsx]
-                                      [--output figures]
-                                      [--sheet "Parades BdD"]
-                                      [--interactive]
-"""
-
 from __future__ import annotations
 
 import argparse
