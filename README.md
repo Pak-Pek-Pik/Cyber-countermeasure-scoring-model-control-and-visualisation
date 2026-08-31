@@ -17,8 +17,7 @@ Score = 0.35·E + 0.25·P + 0.20·A + 0.20·C
 ```
 
 The code in this repository does two things. It **checks** that the score actually applied to the
-74 countermeasures matches the documented scale, and it **makes that scale readable**. A
-four-variable formula cannot be discussed in a meeting. An iso-score map can.
+74 countermeasures matches the documented scale, and it **makes that scale readable**.
 
 > The figures are labelled in French, since they come from the original report. The captions below
 > explain what each one shows.
@@ -127,9 +126,7 @@ Cotation = 0,35·E + 0,25·P + 0,20·A + 0,20·C
 ```
 
 Le code de ce dépôt fait deux choses. Il **vérifie** que la cotation appliquée aux 74 parades
-correspond bien au barème annoncé, et il la **rend lisible**. Une formule à quatre variables ne se
-discute pas en réunion. Une carte d'iso-cotation, si.
-
+correspond bien au barème annoncé, et il la **rend lisible**.
 ### Le plan du modèle et les parades réelles
 
 ![Plan du modèle et parades réelles](figures/pv_map_model.png)
