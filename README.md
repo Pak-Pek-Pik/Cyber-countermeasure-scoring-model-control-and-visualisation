@@ -90,23 +90,6 @@ the score that comes from A and C.
 `Python` · `NumPy` · `pandas` · `SciPy` (stats, interpolate, spatial, linalg) · `matplotlib` ·
 `PyVista` / VTK · `openpyxl`
 
-### Layout
-
-```
-.
-├── README.md
-├── requirements.txt
-├── data/                     # source workbook, not versioned
-├── figures/                  # PNG and HTML outputs
-└── src/
-    ├── trace_quotation_matplotlib.py
-    └── trace_quotation_pyvista.py
-```
-
-The expected workbook holds a sheet named `Parades BdD`, which can be changed with `--feuille`,
-containing from row 3 onwards: countermeasure name in A, status in B, then E, P, A, C and the score
-in D through H.
-
 ### A note on the data
 
 The original dataset comes from an internal risk assessment and is not published. The figures in
@@ -194,22 +177,6 @@ la part de cotation qui vient de A et de C.
 `Python` · `NumPy` · `pandas` · `SciPy` (stats, interpolate, spatial, linalg) · `matplotlib` ·
 `PyVista` / VTK · `openpyxl`
 
-### Arborescence
-
-```
-.
-├── README.md
-├── requirements.txt
-├── data/                     # classeur source, non versionné
-├── figures/                  # sorties PNG et HTML
-└── src/
-    ├── trace_quotation_matplotlib.py
-    └── trace_quotation_pyvista.py
-```
-
-
-Le classeur attendu contient une feuille `Parades BdD`, modifiable via `--feuille`, avec à partir
-de la ligne 3 : le nom de la parade en A, son statut en B, puis E, P, A, C et la cotation en D à H.
 
 ### Note sur les données
 
