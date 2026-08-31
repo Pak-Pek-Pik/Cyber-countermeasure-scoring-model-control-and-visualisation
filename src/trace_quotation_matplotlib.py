@@ -1,25 +1,3 @@
-"""Matplotlib figures for a multi-criteria scoring grid.
-
-Reads an Excel workbook describing countermeasures rated on four criteria
-(effectiveness E, versatility P, applicability A, cost C) and produces:
-
-  quotation_surface_3D.png : model plane at median A and C, with the actual
-                             countermeasures and their deviation from the plane
-  quotation_map_2D.png     : iso-score map seen from above
-  quotation_section.png    : mean observed score per (E, P) pair, and sections
-                             of the plane at fixed P
-
-Expected sheet, from row 3 onwards:
-    A = countermeasure name, B = status, D = E, E = P, F = A, G = C, H = score.
-Column E holds a COUNTIF formula, so the workbook is opened with
-data_only=True to read the computed value rather than the formula itself.
-
-Usage:
-    python trace_quotation_matplotlib.py [--data data/parades.xlsx]
-                                         [--output figures]
-                                         [--sheet "Parades BdD"]
-"""
-
 from __future__ import annotations
 
 import argparse
