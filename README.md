@@ -22,12 +22,15 @@ The code in this repository does two things. It **checks** that the score actual
 > The figures are labelled in French, since they come from the original report. The captions below
 > explain what each one shows.
 
-### Model plane and actual countermeasures
+
 
 3D & Interactive Model : ![Interactive_score](figures/interactive_score.html)
 
 
 
+
+
+### Model plane and actual countermeasures
 
 ![Model plane and actual countermeasures](figures/pv_map_model.png)
 
