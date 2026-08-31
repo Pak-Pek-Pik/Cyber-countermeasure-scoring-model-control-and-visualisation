@@ -24,6 +24,11 @@ The code in this repository does two things. It **checks** that the score actual
 
 ### Model plane and actual countermeasures
 
+3D & Interactive Model : ![Interactive_score](figures/interactive_score.html)
+
+
+
+
 ![Model plane and actual countermeasures](figures/pv_map_model.png)
 
 The plane is the score predicted by the scale, drawn with A and C fixed at their medians. Each
